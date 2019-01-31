@@ -1,5 +1,7 @@
 {
   "name": "ionic-soundboard",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
