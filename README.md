@@ -1,5 +1,5 @@
 # ionic-soundboard 🎹
-> Soundboard app feito com Ionic Framework
+> Soundboard app feito com Ionic Framework | Em desenvolvimento
 
 ## App Preview
 
@@ -40,3 +40,6 @@ $ ionic cordova run android --prod
 ```
 $ ionic cordova run ios --prod
 ```
+
+## License
+&copy; [MIT](LICENSE)
