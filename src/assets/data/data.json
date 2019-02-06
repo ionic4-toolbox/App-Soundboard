@@ -1,0 +1,48 @@
+{
+  "results": [
+    {
+      "songs": [
+        {
+          "title": "Chuveiro",
+          "file": "/assets/sounds/shower.ogg",
+          "icon": "./assets/imgs/shower.svg"
+        },
+        {
+          "title": "Gato Ronronando",
+          "file": "/assets/sounds/cat-purring.ogg",
+          "icon": "./assets/imgs/cat.svg"
+        },
+        {
+          "title": "Máquina de lavar",
+          "file": "/assets/sounds/washing-machine.ogg",
+          "icon": "./assets/imgs/washing-machine.svg"
+        },
+        {
+          "title": "Ventilador",
+          "file": "/assets/sounds/fan.ogg",
+          "icon": "./assets/imgs/cooler.svg"
+        },
+        {
+          "title": "Secador de Cabelo",
+          "file": "/assets/sounds/hair-dryer.ogg",
+          "icon": "./assets/imgs/hair-dryer.svg"
+        },
+        {
+          "title": "Avião",
+          "file": "/assets/sounds/airplane.ogg",
+          "icon": "./assets/imgs/airplane.svg"
+        },
+        {
+          "title": "Carro",
+          "file": "/assets/sounds/car.ogg",
+          "icon": "./assets/imgs/car.svg"
+        },
+        {
+          "title": "Trilhos",
+          "file": "/assets/sounds/rails.ogg",
+          "icon": "./assets/imgs/railway.svg"
+        }
+      ]
+    }
+  ]
+}
