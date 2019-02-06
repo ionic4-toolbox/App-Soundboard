@@ -1,1 +1,17 @@
+.card-sounds {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+  height: 20vh;
+  border-radius: 20px;
 
+  img {
+    height: 60px;
+  }
+
+  p {
+    font-weight: 700;
+    padding: 10px 0 0;
+  }
+}
