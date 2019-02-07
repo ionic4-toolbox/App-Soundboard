@@ -1,3 +1,25 @@
-<p>
-  media-player works!
-</p>
+<div class="media-player" [@playerAnimation]>
+  <ion-grid>
+    <ion-row justify-content-center>
+      <ion-col [size]="3">
+        <ion-button fill="clear" color="light" (click)="toggleSong()">
+          <ion-icon slot="icon-only" name="play" *ngIf="!ifSoundPlaying"></ion-icon>
+          <ion-icon slot="icon-only" name="pause" *ngIf="ifSoundPlaying"></ion-icon>
+        </ion-button>
+      </ion-col>
+      <ion-col [size]="4">
+        <div class="display-timer" *ngIf="timeInSeconds && timeInSeconds > 0 && !timer.hasFinished">
+          <p>{{timer.displayTime}}</p>
+        </div>
+      </ion-col>
+      <ion-col [size]="5">
+        <ion-button fill="clear" color="light" (click)="changeVolume()">
+          <ion-icon slot="icon-only" name="volume-high"></ion-icon>
+        </ion-button>
+        <ion-button fill="clear" color="light" (click)="toggleTimer()">
+          <ion-icon slot="icon-only" name="timer"></ion-icon>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</div>
